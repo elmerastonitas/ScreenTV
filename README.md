@@ -38,7 +38,7 @@ Nota: si no tienes instalado Git, descargar e instalar de https://git-scm.com/do
 
 4. Ejecuta el archivo `Main.java`.
 
-5. Sigue las instrucciones en la consola para ingresar la película o serie.
+5. Sigue las instrucciones en la consola.
 
 ## Demostración
 
