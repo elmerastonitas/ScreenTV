@@ -18,6 +18,7 @@ Este proyecto calcula la media de las evaluaciones de los usuarios para la pelí
 
 #### Ciclo for
 Recopilando evaluación de usuarios con ciclo `for`:
+
 ```bash
 Scanner teclado = new Scanner(System.in);
 for (int i = 0; i < 3; i++) {
