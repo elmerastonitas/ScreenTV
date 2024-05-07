@@ -65,4 +65,4 @@ Nota: si no tienes instalado Git, descargar e instalar de https://git-scm.com/do
 
 Demostración del proyecto:
 
-![Demostración del proyecto](https://github.com/elmerastonitas/ScreenTV/blob/clase-1/demhttps://github.com/elmerastonitas/ScreenTV/blob/main/src/main/resources/images/demo.gif)
+![Demostración del proyecto](https://github.com/elmerastonitas/ScreenTV/blob/main/src/main/resources/images/demo.gif)
