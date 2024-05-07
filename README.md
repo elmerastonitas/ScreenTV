@@ -1,44 +1,22 @@
 # ScreenTV
 
-ScreenTV plataforma de streaming para ver películas.
+ScreenTV plataforma de streaming para ver películas y series.
 
 ## Detalles del proyecto
 
-Este proyecto calcula la media de las evaluaciones de los usuarios para la película "Matrix":
+Este proyecto permite a los usuarios registrar películas y series mediante consola:
 
-- Declarar variables utilizando tipos de datos primitivos (`int`, `double`, `boolean`, y `String`).
-- Utilizar ciclos `for` y `while` para recopilar las evaluaciones de los usuarios.
-- Utilizar un condicional `if` para determinar el tipo de película en base a su fecha de lanzamiento.
-- Calcular la media de las evaluaciones ingresadas por los usuarios.
-- Mostrar mensajes en la consola para interactuar con el usuario.
+Se aplicaron conceptos de programación orientada a objetos (POO):
+
+- Abstracción: Se creó una clase abstracta que modela entidades del mundo real.
+- Encapsulamiento: Se utilizaron atributos privados y públicos para controlar el acceso a los datos.
+- Herencia: Se implementaron clases hijas que heredan atributos y comportamientos de la clase madre.
+- Polimorfismo: Se emplearon métodos que pueden comportarse de manera diferente según el contexto en que se llaman.
 
 ## Desafíos
-1. Crear el `Readme.md` con lo desarrollado en la clase.
-2. Refactorizar código de ciclo `for` a `while`.
+1. Crear opción 2 para series y refactorizar código para evitar repeticiones, teniendo en cuenta qué los atributos son similares.
+2. Crear una opción 3 para calcular el tiempo que puede para ver películas o series.
 
-#### Ciclo for
-Recopilando evaluación de usuarios con ciclo `for`:
-
-```bash
-Scanner teclado = new Scanner(System.in);
-for (int i = 0; i < 3; i++) {
-    System.out.println("Ingresa la evaluacion que darías a Matrix:");
-    double notaMatrix = teclado.nextDouble();
-    mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
-}
-```
-#### Ciclo while
-Refactorizando código para recopilar evaluaciones de usuarios con el ciclo `while`:
-
-```bash
-int contador = 0;
-while (contador < 3) {
-    System.out.println("Ingresa la evaluacion que darías a Matrix:");
-    double notaMatrix = teclado.nextDouble();
-    mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
-    contador++;
-}
-```
 
 ## Uso
 
@@ -60,10 +38,10 @@ Nota: si no tienes instalado Git, descargar e instalar de https://git-scm.com/do
 
 4. Ejecuta el archivo `Main.java`.
 
-5. Sigue las instrucciones en la consola para ingresar las evaluaciones de la película "Matrix".
+5. Sigue las instrucciones en la consola para ingresar la película o serie.
 
 ## Demostración
 
 Demostración del proyecto:
 
-![Demostración del proyecto](https://github.com/elmerastonitas/ScreenTV/blob/main/src/main/resources/images/demo.gif)
+![Demostración del proyecto]()
